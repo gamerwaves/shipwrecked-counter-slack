@@ -2,6 +2,8 @@ import time
 import requests
 import subprocess
 import json
+from keep_alive import keep_alive
+keep_alive()
 
 # Webhook URL (replace with your actual Slack Incoming Webhook URL)
 WEBHOOK_URL = "https://hooks.slack.com/services/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"
